@@ -92,19 +92,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\Bootstrapper.cs" />
+    <Compile Include="Common\Hooks.cs" />
+    <Compile Include="ExtensionMethods\ScenarioExtensionMethod.cs" />
+    <Compile Include="Features\AmazonBuyDellXPS.feature.cs" />
+    <Compile Include="Pages\AmazonPage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Steps\AmazonBuyDellXPS.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Features\AmazonBuyDellXPS.feature" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Common\" />
-    <Folder Include="ExtensionMethods\" />
-    <Folder Include="Features\" />
-    <Folder Include="Pages\" />
-    <Folder Include="Steps\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="extent-config.xml" />
   </ItemGroup>
